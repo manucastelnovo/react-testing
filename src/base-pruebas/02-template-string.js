@@ -2,7 +2,9 @@
 
 
 export function getSaludo(nombre) {
-    return 'Hola ' + nombre;
+    return 'hola ' + nombre;
 }
+
+const nombre = 'pedro'
 
 console.log( `Este es un texto: ${ getSaludo( nombre ) }  ` );
